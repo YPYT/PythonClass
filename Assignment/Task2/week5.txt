@@ -1,0 +1,56 @@
+text file
+word = strings
+files Input > user, file
+      Putput > file
+file open with read mode and write mode
+1. open file
+2. just read it
+3. do something
+    all word in to variable
+    * while loop (while if the user enter exit)
+        ask the user input 
+    
+        search how many times the specific word (one by one) loop
+        any other words 
+
+        exit
+        
+    variable.count = output
+    output (how many word in the book)
+
+
+* save the fike in the same directory
+point1
+open the file with read mode
+alice_...txt
+
+point2
+read the content in the file 
+
+point3
+w3 school f=open ("...txt", "r")
+print(f.read())
+string
+
+point4
+need box name "all content"(variable) for example
+all the words in the file in to "all content"
+
+point5
+while loop (while true)
+* get user input
+@@ = int(input("Enter any words: "))
+
+point6
+condition (if statement)
+if word == 〇〇  exist 
+
+point7
+convert whatever the cases into lower case
+Yuka > yuka
+
+point8
+how many word the user enter (count() function) 
+
+point9 
+display total count

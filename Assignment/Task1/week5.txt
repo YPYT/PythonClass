@@ -1,0 +1,44 @@
+point1
+    start with more than 2 file
+    ** with date as well
+    AUS.txt (name)
+
+point2
+loop (for loop)
+AUS.txt
+JPN.txt
+
+spyder file
+
+each one by one file
+loop
+    file open(read mode)
+    (read line(line by line) or read lines(all line in the list))3 strings separate
+    split the line 
+    first value of one
+    add first value until finish
+
+    input = file (split)
+
+    how many line we have? 
+
+    ** create other file AUS_ave.txt 'w'
+
+
+1. import os library
+2. pick first file from the same directory
+3. use a loop (for)
+    open file
+    read (all the line) in one variable
+    each line separate (how to split() ask google)
+    one for petrol
+    3 variable come from list from lists
+    len(list)
+    create new file (AUS_ave.txt)
+    display in to the new file
+    
+
+
+
+
+
