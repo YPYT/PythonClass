@@ -26,9 +26,9 @@
 # print(ex) 
 # # [1, 10, 2, 3, 4]
 
-num = [2,5,1,9,4]
-sort_num = num.sort()
-print(sort_num)
+# num = [2,5,1,9,4]
+# sort_num = num.sort()
+# print(sort_num)
 
 
 # ####------ Tuple

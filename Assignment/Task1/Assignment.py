@@ -17,13 +17,13 @@ for file in glob.glob('[A-Z][A-Z][A-Z].txt'):
   # open county text file
   with open(file, 'r') as country_text_file:
       for line in country_text_file:
-          numbers = line.split()
-          # print(numbers)
-          petrol = float(numbers[0])
+          prices = line.split()
+          # print(prices)
+          petrol = float(prices[0])
           # print("petrol", petrol)
-          gas = float(numbers[1])
+          gas = float(prices[1])
           # print("gas", gas)
-          diesel = float(numbers[2])
+          diesel = float(prices[2])
           # print("diesel", diesel)
 
           # add the price in each lines and assign to the variable (example: petrol_sum = petrol_sum + petrol)
@@ -46,9 +46,9 @@ for file in glob.glob('[A-Z][A-Z][A-Z].txt'):
   result = "{:.2f} {:.2f} {:.2f}".format(petrol_ave, gas_ave, diesel_ave)
   
   # open file with write mode and name it COUNTRY_CODE_ave.txt
-  f = open(country_code + "_ave.txt", 'w')
+  result_file = open(country_code + "_ave.txt", 'w')
   # write the result in the file
-  f.write(result)
+  result_file.write(result)
   # close the file
-  f.close
+  result_file.close()
 
