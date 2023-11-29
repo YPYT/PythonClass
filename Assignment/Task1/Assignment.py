@@ -31,11 +31,12 @@ for file in glob.glob('[A-Z][A-Z][A-Z].txt'):
           gas_sum += gas
           diesel_sum += diesel
 
+          # Add all petrol values into the petrol_sum_list variable
           petrol_sum_list.append(petrol)
           gas_sum_list.append(gas)
           diesel_sum_list.append(diesel)
 
-  # average of each unit prices
+      # average of each unit prices
       petrol_ave = petrol_sum/len(petrol_sum_list) 
       gas_ave = gas_sum/len(gas_sum_list)
       diesel_ave = diesel_sum/len(diesel_sum_list)
@@ -51,4 +52,3 @@ for file in glob.glob('[A-Z][A-Z][A-Z].txt'):
   # close the file
   f.close
 
-  
