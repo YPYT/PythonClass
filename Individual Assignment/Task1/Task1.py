@@ -1,3 +1,8 @@
+# Assignment title: Develop a Python program - individual assessment Task 1
+# Student Name: Yuka Toshima (20023347)
+# Date: 4th December 2023
+
+
 import glob # to seach the files
 
 # Search all text files that contain 3 capital letters of the alphabet (country code) and assign to files variable
@@ -5,7 +10,6 @@ import glob # to seach the files
 for file in glob.glob('[A-Z][A-Z][A-Z].txt'):
   # Get country codes
   country_code = file[:3]
-  
   # Set the total price of each price to 0
   petrol_sum = 0
   gas_sum = 0
