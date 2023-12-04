@@ -3,7 +3,8 @@
 # Date: 4th December 2023
 
 
-import glob # to seach the files
+# To seach the files from all the directry path in case the COUNTRY_CODE.txt files are not in current working dirctry
+import glob 
 
 # Search all text files that contain 3 capital letters of the alphabet (country code) and assign to files variable
 # Loop for all the country text file
