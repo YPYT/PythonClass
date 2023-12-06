@@ -1,4 +1,7 @@
 ### --- Function (for reusability)
+## Concept: 1. define function
+##          2. call function
+
 def greeting(name):
     print("Hello, " + name)
 
