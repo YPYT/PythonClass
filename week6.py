@@ -92,7 +92,7 @@
 
 
 
-# ### -------- Filtering function
+# ### -------- Filtering/Reduce function
 # def odd(n): return n % 2 == 1
 # nums = [3,2,6,32,11,23,15,85,22,68]
 # odd_list = list(filter(odd, nums))
@@ -132,14 +132,30 @@ a) Write the code for a mapping that generates a list of the absolute values of 
 in a list named numbers.
 b) Write a program that computes and prints the average of the numbers in a text file. You
 should make use of two higher-order functions to simplify the design.
+higher-order -filtering, map, reduce
 """
-#a)
-numbers = [23,-22,34,45,-56,-2,-9,31]
-abs_list = list(map(abs, numbers))
-print(abs_list)
-#>> [23, 22, 34, 45, 56, 2, 9, 31]
+# #a)
+# numbers = [23,-22,34,45,-56,-2,-9,31]
+# abs_list = list(map(abs, numbers))
+# print(abs_list)
+# #>> [23, 22, 34, 45, 56, 2, 9, 31]
 
-#b)
+# #b)
+# from functools import reduce
 
+# def add(x,y):
+#     return x + y
 
-    
+# file = open("integer.txt", "r")
+# num_list = []
+# for line in file:
+#     num_list.extend(line.split())
+
+# int_list = list(map(int, num_list))
+# # print("int_list is", int_list)
+
+# sum = reduce(add, int_list)
+# # print("sum is", sum)
+# if len(int_list) > 0:
+#     average = sum / len(int_list)
+# print("The average is ", average)
