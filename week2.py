@@ -74,7 +74,7 @@ surface area as output.
 # input length of the edge
 length = int(input("Enter the length of the cube's edge: "))
 # calculate the surface of the cube
-surfaceArea = 6 * (length * 2)
+surfaceArea = 6 * (length ** 2)
 # display the surface are of the cube to the user
 print("The surface area of the cube is ", surfaceArea)
 

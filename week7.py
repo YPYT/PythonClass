@@ -3,10 +3,11 @@
 # using Turtle Programming
 
 import turtle 
-skk = turtle.Turtle()
+
+t = turtle.Turtle() #assign class Turtle() from module turtle into 't' 
  
-for i in range(4):
-    skk.forward(50)
-    skk.right(90)
-     
+t.color('red')
+t.pensize(5) 
+t.shape('turtle') # shape for allow 
+
 turtle.done()
