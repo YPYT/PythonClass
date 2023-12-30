@@ -1,0 +1,2 @@
+<Last name> <Hourly wage> <Hours worked> <Total pay> 
+      Yuka          25             24         600
