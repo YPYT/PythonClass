@@ -2,12 +2,14 @@
 # Python program to draw square 
 # using Turtle Programming
 
-import turtle 
+# import turtle 
 
-t = turtle.Turtle() #assign class Turtle() from module turtle into 't' 
+# t = turtle.Turtle() #assign class Turtle() from module turtle into 't' 
  
-t.color('red')
-t.pensize(5) 
-t.shape('turtle') # shape for allow 
+# t.color('red')
+# t.pensize(5) 
+# t.shape('turtle') # shape for allow 
 
-turtle.done()
+# turtle.done()
+
+
