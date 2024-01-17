@@ -23,44 +23,6 @@
 # numbers[2:5] = [200,300,400]
 # print(numbers)
 
-#---- Insert and Removing Elements ------
-# INSERT- 
-# numbers = [0,1,2,3,4,5]
-# #1. insert(INDEX, new_element)
-# numbers.insert(1,100)
-# print(numbers)
-# numbers.insert(2,200)
-# print(numbers)
-
-# #2. append(ELEMENTS)
-# numbers.append(10)
-# print(numbers)
-
-# #3. extend(LIST)
-# numbers.extend([11,12,13,14])
-# print(numbers)
-
-# REMOVE-
-# numbers = [0,1,2,3,4,5,6,7]
-# numbers.pop()
-# print(numbers) #[0, 1, 2, 3, 4, 5, 6]
-# numbers.pop(2)
-# print(numbers) #[0, 1, 3, 4, 5, 6]
-# numbers.pop(2)
-# print(numbers) #[0, 1, 4, 5, 6]
-
-
-# first = [1,2,3]
-# second = first
-# print("first: ", first)
-# print("second: ", second)
-# # first:  [1, 2, 3]
-# # second:  [1, 2, 3]
-# first[1] = 20
-# print("first: ", first)
-# print("second: ", second)
-# # first:  [1, 20, 3]
-# # second:  [1, 20, 3]
 
 # # -- Dictionary
 # info = {}

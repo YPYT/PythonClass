@@ -7,14 +7,14 @@
 ## 3: create method
 # Object_Name = class_Name() :How to make object
 
+#---------------------------------------------------------------
+#Class/ Object
+#Attribute(private,protected), method(public)
+# Method: 1 init, 2 getter/setter method, 3 user defined method
+#---------------------------------------------------------------
+
 # ex) 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-p1 = Person("John", 22)
-print("p1 name:",p1.name)
-print("p1 age:", p1.age)
+
 
 
 
