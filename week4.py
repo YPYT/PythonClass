@@ -245,3 +245,10 @@
 # ##     6       3          37
 # ##     0       6         637
 # ## The octal representation is  637
+
+# =======================================================================================
+# String and file
+# File is important
+# how to create, open, imput, output, read, how to split, write(remember), close
+# method
+# how to print using formatting

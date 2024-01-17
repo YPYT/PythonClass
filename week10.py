@@ -1,6 +1,6 @@
 # student class stracture P4 (week8) :STR method (I can control) ex) chair.color = black 
 # mathod: init, get, set, str
-# attribute
+# attribute (instance variable)
 # how you make class stracture P10 remenber the stracture(bank)
 # what is class name, how many method(what it is)
 

@@ -91,3 +91,6 @@
 # print("second: ", second)
 # # first:  [1, 20, 3]
 # # second:  [1, 20, 3]
+
+# =======================================================================================
+# how to create list, symble, dictionary, tuple

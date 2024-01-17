@@ -138,3 +138,6 @@ for year in range(1,years+1):
 print("Ending balance: $ {:.2f}".format(ending_balance))
 print("Total interest earned: $ {:.2f}".format(total))
 
+# =======================================================================================
+# control stracture
+# for loop, while loop, shortcut operations

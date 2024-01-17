@@ -121,3 +121,6 @@ totalWeeklyPay = regularPay + overtimePay
 
 # Display the total weekly pay to the user
 print("The weekly pay is $ ", totalWeeklyPay)
+
+# =======================================================================================
+# data type, variable(local, global), add comment
