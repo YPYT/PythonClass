@@ -86,13 +86,17 @@ def main():
     while True:
         # Ask customer if they want to quit or change to the next customer and assign the answer to the variable called next 
         next = input("(N)ext customer, or (Q)uit?")
-        # If uppered value of next is 'N', c1 will be reset to the default and call main() to start the register
+
+        # If uppered value of next is 'N', c1 will be reset to the default and call main() to start the register and break the while loop
         if next.upper() == "N":
             c1.reset_register()
             main()
+            break
+
         # If uppered value of next is 'Q', break the loop
         elif next.upper() == "Q": 
             break
+
         # If the answer isn't 'N' or 'Q', display "Input invalid, (N)ext customer, or (Q)uit?" and continue to ask.
         else:
             print("Input invalid, (N)ext customer, or (Q)uit?")
